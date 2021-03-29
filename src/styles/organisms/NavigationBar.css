@@ -1,0 +1,24 @@
+.navigationGrid {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1;
+    grid-template-areas: "leftNav midNav rightNav";
+    justify-items: stretch;
+    padding: 25px;
+  }
+
+.leftNav {
+    grid-area: leftNav;
+}
+
+.midNav {
+    grid-area: midNav;
+}
+
+.rightNav {
+    grid-area: rightNav;
+}
+
+#navigationBarMain {
+    background-color: #1e1e1e;
+}
