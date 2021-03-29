@@ -1,0 +1,20 @@
+.cart-count {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 25px;
+    left: 10px;
+    /* change back to white after testing */
+    color: black;
+    width: 18px;
+    height: 18px;
+    font-size: 9px;
+    line-height: 16px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid;
+    top: -10px;
+    right: -13px;
+    z-index: 1;
+    transition: all 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+}
