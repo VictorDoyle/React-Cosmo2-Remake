@@ -1,6 +1,25 @@
+.mainBanner {
+    z-index: 1;
+}
+
+
 .mainBanner img {
+    position: absolute;
+    top: 0;
+    z-index: 10;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+}
+
+.mainBannerText h1 {
+    font-size: 85px;
+    line-height: 100px;
+    position: relative;
+    z-index: 50;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 90%;
+    mix-blend-mode: difference;
 }

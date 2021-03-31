@@ -1,0 +1,13 @@
+#search-icon {
+    width: 20px;
+    margin-left: 45px;
+    padding-right: 20px;
+}
+
+.searchButton {
+    color: whitesmoke;
+    position: relative;
+    width: 155px;
+    float: right;
+    margin-right: 28%;
+}

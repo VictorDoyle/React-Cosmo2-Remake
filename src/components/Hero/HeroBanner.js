@@ -8,6 +8,9 @@ function HeroBanner() {
         <div className="mainBanner">
         <img src={heroBannerMain}/>
         </div>
+        <div className="mainBannerText">
+            <h1>MADE TO PERFECTION</h1>
+        </div>
         </>
     )
 }

@@ -1,10 +1,12 @@
 .navigationGrid {
+    position: relative;
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 1;
     grid-template-areas: "leftNav midNav rightNav";
     justify-items: stretch;
     padding: 25px;
+    z-index: 1000 !important;
   }
 
 .leftNav {
@@ -20,5 +22,6 @@
 }
 
 #navigationBarMain {
-    background-color: #1e1e1e;
+    /* TODO: on scroll augment alpha or update to #1e1e1e */
+    background-color: #1e1e1e00;
 }
